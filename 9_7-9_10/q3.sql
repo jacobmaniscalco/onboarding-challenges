@@ -1,0 +1,3 @@
+SELECT * FROM table1
+INTERSECT 
+SELECT * FROM table2;
