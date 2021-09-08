@@ -1,4 +1,4 @@
 SELECT Department, Count(Worker_ID) 
-FROM Employee
+FROM Worker
 GROUP BY Department 
 ORDER BY Count(Worker_ID) DESC;

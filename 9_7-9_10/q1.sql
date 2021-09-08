@@ -1,4 +1,4 @@
 SELECT First_Name, Last_Name, Salary 
-FROM Employee
+FROM Worker
 WHERE Salary >= 50000 
 AND Salary <= 100000
