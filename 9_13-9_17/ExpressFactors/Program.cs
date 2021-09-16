@@ -30,12 +30,12 @@ namespace ExpressFactors
 
             for(int i = 0; i < primeFactors.Count; i++)
             {
-                int test = num;
+                int tempNum = num;
 
-                while (test % primeFactors[i] == 0)
+                while (tempNum % primeFactors[i] == 0)
                 {
                     occurences[i]++;
-                    test /= primeFactors[i];
+                    tempNum /= primeFactors[i];
                 }
             }
 
